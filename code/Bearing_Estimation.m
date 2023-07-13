@@ -32,7 +32,7 @@ subplot(2, 2, 2);
 plot(M, CRLB_BETA, 'linewidth', 2);
 grid on;
 legend('CRLB_\beta');
-xlabel('M');
+xlabel('M (# of arrays)');
 ylabel('CRLB_\beta');
 
 %% variation of CRLB_beta with variation of SNR
@@ -59,6 +59,6 @@ subplot(2, 2, 4);
 plot(lambda, CRLB_BETA, 'linewidth', 2);
 grid on;
 legend('CRLB_\beta');
-xlabel('Lambda');
+xlabel('\lambda (m)');
 ylabel('CRLB_\beta');
 
